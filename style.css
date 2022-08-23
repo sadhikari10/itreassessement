@@ -189,6 +189,45 @@ ul li a:hover{
     color:antiquewhite;
     font-size: 25px;
  }
+
+/* Window shop */
+.image6{
+    width:180px;
+    background-image:url(Images/shoes.jpg);
+}
+.image7{
+    width:180px;
+    height:170px;
+    background-image:url(Images/Whitetshirt.jpg)
+}
+.image8{
+    width:180px;
+    background-image:url(Images/kimono.jpg);
+}
+.image9{
+    width:180px;
+    background-image:url(Images/jumper.jpg);
+}
+.image10{
+    width:180px;
+    background-image:url(Images/daura.jpg);
+}
+.image11{
+    width:180px;
+    background-image:url(Images/jersey.jpg);
+}
+.image12{
+    width:180px;
+    background-image:url(Images/tracksuit.jpg);
+}
+.image13{
+    width:180px;
+    background-image:url(Images/moomin.jpeg);
+}
+
+
+
+
 /* footer */
 .footer{
     text-align:center;
