@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <nav>
@@ -17,20 +18,20 @@
             <li><a href="visit.html">Window shop</a></li>
         </ul>
     </nav>
-        <form method ="POST" action="" name="register" enctype="multipart/form-data">
+        <form id="form" method ="Get" action="" name="register" enctype="multipart/form-data" >
             <fieldset class="f_one">
                 <div class=container>
                 <section class="input">
                 <legend>Create an account for latest updates</legend>
                 <div class="details">
-                    <label>First name:</label>
-                    <input type="text" name="username" placeholder=username><br/><br/>
+                    <label>Full name:</label>
+                    <input id="firstname" type="text" name="firstname" placeholder=firstname><br/><br/>
                     <label>Last name:</label>
-                    <input type="text" name="lastname" placeholder=Lastname><br/><br/>
+                    <input id="lastname" type="text" name="lastname" placeholder=Lastname><br/><br/>
                     <label>Password:</label>
-                    <input type="password" name="password"placeholder=password><br/><br/>
+                    <input id="password" type="password" name="password" placeholder=password><br/><br/>
                     <label>Email:</label>
-                    <input type="email" name="email" placeholder="email"><br/><br/>
+                    <input id="email" type="email" name="email" placeholder="email"><br/><br/>
                 </div>
                 <label>Gender</label><br/>
                 <input type="radio" name="gender" value="M" checked/>Male<br/>
@@ -48,11 +49,21 @@
                 </select><br/>  <br/>
                 <label>Message</label>
                 <textarea rows="7" cols="50" name="message"></textarea><br/>
-                <input type="submit" name="submit" value="Register"/>
-                <input type="reset" name="reset" value="Cancel"/><br/>
+                <button type="submit">Submit</button><br/>
+
+                <button type="reset">Reset</button><br/>
                 </section>
             </div>
             </fieldset>
+
+
+
+
+
+
+
+
+
         </form>
         <footer class="footer">
             <p>Copyright &copy;</p>
