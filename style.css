@@ -76,3 +76,79 @@ ul li a:hover{
     padding: 25px 30px;
     border-radius: 5px;
 }
+/* gallery */
+.clothe{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top:100px;
+}
+.clothe h1{
+    font-size:36px;
+    font-weight:600;
+}
+.clothe p{
+    color:red;;
+    font-size:14px;
+    font-weight:300;
+    padding:10px;
+    line-height:22px;
+}
+.row1{
+    margin-top:5%;
+    display: flex;
+    justify-content: space-between;
+}
+.sub-clothe{
+    flex-basis:31%;
+    background:pink;
+    border-radius:10px;
+    margin-bottom:5%;
+    box-sizing: border-box;
+}
+@media (max-width: 700px){
+    .row{
+        flex-direction:column;
+    }
+}
+
+.image{
+    width:180px;
+    background-image:url(kidscloth.jpg);
+}
+
+.image1{
+    width:180px;
+    background-image:url(menclothe.jpg);
+}
+
+.image2{
+    width:180px;
+    background-image:url(womanscloth.jpg)
+}
+
+.row2{
+    margin-top:5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.image3{
+    width:180px;
+    background-image:url(shoe.jpg);
+}
+
+.image4{
+    width:180px;
+    height:180px;
+    background-image:url(jersey.jpg);
+}
+
+.image5{
+    width:180px;
+    background-image:url(friends.jpg)
+}
+
+
+
