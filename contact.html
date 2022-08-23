@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="sales.html">sales</a></li>
+            <li><a href="visit.html">visit</a></li>
+        </ul>
+    </nav>
+        <form method ="POST" action="" name="register" enctype="multipart/form-data">
+            <fieldset class="f_one">
+                <div class=container>
+                <section class="input">
+                <legend>Create an account for latest updates</legend>
+                <div class="details">
+                    <label>First name:</label>
+                    <input type="text" name="username" placeholder=username><br/>
+                    <label>Last name:</label>
+                    <input type="text" name="lastname" placeholder=Lastname><br/>
+                    <label>Password:</label>
+                    <input type="password" name="password"placeholder=password><br/>
+                    <label>Email:</label>
+                    <input type="email" name="email" placeholder="email"><br/>
+                </div>
+                <label>Gender</label><br/>
+                <input type="radio" name="gender" value="M" checked/>Male<br/>
+                <input type="radio" name="gander" value="F"/>Female<br/>
+                <input type="radio" name="gender" value="O">Others<br/><br/>
+                <label>City</label>
+                <select name="city" size="1">
+                    <option value="--">--Please Choose</option>
+                    <option value="ktm">Kathmandu</option>
+                    <option value="lpt">Lalitpur</option>
+                    <option value="bhk">Bhaktapur</option>
+                    <option value="brt">Biratnagar</option>
+                    <option value="pkr">Pokhara</option>
+                    <option value="otr">Others</option>
+                </select><br/>  <br/>
+                <label>Message</label>
+                <textarea rows="7" cols="50" name="message"></textarea><br/>
+                <input type="submit" name="submit" value="Register"/>
+                <input type="reset" name="reset" value="Cancel"/><br/>
+                </section>
+            </div>
+            </fieldset>
+        </form>
+</body>
+</html>
